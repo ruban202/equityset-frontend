@@ -36,7 +36,7 @@ export default function Searchbar() {
           sx={{
             position: 'relative',
             borderRadius: 1,
-            bgcolor: 'grey.200',
+            bgcolor: alpha(theme.palette.grey[300], 0.5),
             width: {
               xs: 'auto',
               sm: 1,

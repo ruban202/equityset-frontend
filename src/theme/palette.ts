@@ -7,7 +7,7 @@ function createGradient(color1: string, color2: string) {
 // SETUP COLORS
 const GREY = {
   0: '#FFFFFF',
-  100: '#F9FAFB',
+  100: '#F5F5F5',
   200: '#F4F6F8',
   300: '#DFE3E8',
   400: '#C4CDD5',

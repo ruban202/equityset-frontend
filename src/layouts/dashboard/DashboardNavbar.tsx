@@ -23,7 +23,7 @@ const DashboardNavbar: React.FunctionComponent<{}> = () => {
         width: 1,
         border: 0,
         borderBottomWidth: 1.5,
-        borderColor: 'grey.200',
+        borderColor: 'grey.300',
       }}
     >
       <Container
