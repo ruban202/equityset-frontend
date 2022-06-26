@@ -54,7 +54,9 @@ export default function Notification() {
         <Stack justifyContent="space-between" alignItems="center" direction={{ xs: 'column', sm: 'row' }} spacing={2}>
           <Box>
             <FilledInput
-              startAdornment={<Iconify icon="ant-design:info-circle-outlined" color="text.disabled" sx={{ mr: 1 }} />}
+              startAdornment={
+                <Iconify icon="ant-design:info-circle-outlined" color="text.disabled" sx={{ mr: 1, fontSize: 26 }} />
+              }
               disableUnderline
               id="phone"
               size="small"
